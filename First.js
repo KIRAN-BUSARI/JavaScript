@@ -12,3 +12,6 @@ console.log(email);
 console.log(`${password} is a secure password`);
 
 console.table([name, password, `This is ur email ${email}`])
+
+
+console.log("This is for day 1");

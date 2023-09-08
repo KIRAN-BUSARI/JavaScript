@@ -1,5 +1,5 @@
 const name = 'kiran'
-var email = 'Kiran@123.com'
+var email = 'Kiran@123.com' // We often prefer not to use var because it causes issues in scpoe i.e {This is Scope } and we more user const or let
 let password = 'Kiran@123'
 
 email = 'kishore@123.com'

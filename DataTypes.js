@@ -24,3 +24,14 @@ console.log(numToString);
 // console.log(String());
 console.log(typeof numToString);
 
+// Premitive DataTypes
+// 7 Types : String,Number,Boolean, undefined, symbol,null,BigInt
+
+
+const toString = "    Kiran   "
+console.log(toString);
+console.log(toString.trim());
+
+
+
+// Try includes, replace, split

@@ -35,3 +35,18 @@ console.log(toString.trim());
 
 
 // Try includes, replace, split
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "123456789@ybl"
+}
+console.log(userOne);
+
+let userTwo = userOne
+
+userTwo.email = "Kiran@gmail.com"
+
+// console.log("User One Email:", userOne.email," User Two Email:", userTwo.email );
+console.log(userTwo.email); // Same
+console.log(userOne.email); // Same

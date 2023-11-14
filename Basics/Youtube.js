@@ -1,10 +1,11 @@
 function nameString(name) {
     var b = "Sucks";
-    var result = name+ + b;
+    // var result = name+b; This ||
+    var result = name+''+b;
     return result;
 }
 
-console.log(nameString("kiran "));
+console.log(nameString("youtube "));
 
 function addNumbers(num1, num2) {
     return num1 + num2;

@@ -29,3 +29,4 @@ console.log(g);
 console.log(h);
 console.log(i);
 
+console.log(null > 0);

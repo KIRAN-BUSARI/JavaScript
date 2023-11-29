@@ -23,3 +23,28 @@ console.log("1" + (2+2));
 
 
 // ASSIGNMENT:
+
+const gitName = new String("Kiran")
+console.log(gitName);
+console.log(gitName.length);
+// console.log(gitName.toUpperCase());
+// console.log(gitName.toLowerCase());
+console.log(gitName.concat(" Kumar"));
+console.log(gitName.charAt(2));
+// console.log(gitName.indexOf('k')); // Why ? -1
+// console.log(gitName.replace('')); // Check this
+
+const newString = gitName.substring(0, 4); // We cant give negative numbers to the start number if we give negative it i'll be treated as 0 only
+console.log(newString);
+
+const anotherString = gitName.slice(0,2);
+console.log(anotherString)
+
+
+const name = "Busari Kumar"
+console.log(name.replace(' ', ' Kiran '));
+
+console.log(name.includes('Busari'));
+console.log('kiran');
+
+console.log(gitName.endsWith('n'));
